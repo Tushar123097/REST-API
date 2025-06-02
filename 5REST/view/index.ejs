@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Posts</title>
+</head>
+<body>
+    <h1>All Posts</h1>
+
+    <!-- <a href="/posts/new">Create a New Post</a> -->
+    <hr>
+
+    <% posts.forEach(post => { %>
+        <div>
+            <h3><%= post.username %></h3>
+            <p><%= post.content %></p>
+            <hr>
+        </div>
+    <% }) %>
+</body>
+</html>

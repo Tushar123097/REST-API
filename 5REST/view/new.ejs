@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Post</title>
+</head>
+<body>
+    <h1>Create New Post</h1>
+
+    <form action="/posts" method="POST">
+        <input name="username" placeholder="Enter your name" required>
+        <br><br>
+        <textarea name="content" placeholder="Write your post..." required></textarea>
+        <br><br>
+        <button type="submit">Submit Post</button>
+    </form>
+
+    <br><br>
+    <a href="/posts">Back to Posts</a>
+</body>
+</html>
